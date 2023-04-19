@@ -1,9 +1,0 @@
-USO DE "FACTORY METHOD":
-
-1. Crear item concreto (por ejemplo "JumpPowerUp") y que herede de su correspondiente item abstracto (siguiendo el ejemplo "PowerUp").
-
-2. Crear prefab con la clase concreta correspondiente ("JumpPowerUp") y asignarle un "id" ("jump").
-
-3. En el "sciptable object" ("PowerUpConfiguration") asignar el prefab del item concreto.
-
-4. En la clase global "InputSystem" asignamos una tecla para spawnear ("Scene > PowerUpSpawner > SpawnPowerUp" con el id "jump").

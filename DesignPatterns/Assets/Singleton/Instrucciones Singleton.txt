@@ -1,5 +1,0 @@
-USO DE "SINGLETON":
-
-1. Crear una nueva clase (por ejemplo "MessageCreator") y hacerla hija de la clase "Singleton" (hay que escribir "... : Singleton<MessageCreator>").
-
-2. Desde clases ajenas llamar a clases públicas de la clase que hereda de "Singleton" a través de "Instance" (por ejemplo "MessageCreator.Instance.ExampleClass()").
